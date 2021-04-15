@@ -1,1 +1,24 @@
 /* this is the style sheet */
+
+
+.mainheader{
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+.subheader{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+    font-size: large;
+}
+.paragraph{
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-small;
+    color: black;
+}
+.imgsetting {
+    -ms-layout-grid: ;
+}
