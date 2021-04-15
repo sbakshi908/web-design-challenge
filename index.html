@@ -1,53 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta charset="UTF-8">
-        <title>Long Lat website</title>
-      
-        <!-- Bring in our bootstrap stylesheet -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      
-        <link rel="stylesheet" href="style.css">
-      </head>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    <body>
-        <!-- first page -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <header class="mainheader">
-                        <h2>Latitude</h2>
+    <title>Web-Desgin-HW</title>
+  </head>
+  <body>
+    <h1>Latitude</h1>
+    <!-- navber starts here -->
 
-                    </header>
-                </div>
-            <!-- this is where we want a new row with the 2 side by side boxes with visuals-->
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 class="subheader "> Summary: Latitude vs X</h2>
-                    <p class="paragraph">
-                        The purpose of this projest is to anazlyse weather as you get closer to the equator. 
-                        <img src="/Resources/assets/images/Fig1.png" alt="">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Latitude</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Plots
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="temp.html">Temp</a></li>
+                      <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                      <li><a class="dropdown-item" href="windspeed.html">Windspeed</a></li>
+                      <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+    </div>
+
+
+    <!-- navbar ends here -->
+
+    <!-- mainpage images-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <figure class="figure">
+                    <header>Summary: Latitude vs: X</header>
+                    <hr>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet lorem a mi congue, gravida convallis nibh facilisis. Etiam pretium sit amet lorem sed egestas. Fusce ut ornare magna, vitae tincidunt ante. Nunc ac blandit velit. Nam quis eleifend lectus. Aenean posuere sapien vel nibh semper pretium. Nullam pharetra commodo bibendum. Maecenas feugiat turpis non erat dictum, at volutpat magna feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi interdum sed diam sit amet pulvinar.
                     </p>
-                </div>
-                <div class="col-md-6">
-                    <h2>Visualizations</h2>
-                    <p class="paragraph"> 
-                        there should be 4 images here that are linked to the visualization pages
-                        <img src="/Resources/assets/images/Fig1.png" alt="">
-                        <img src="/Resources/assets/images/Fig2.png" alt="">
-                        <img src="/Resources/assets/images/Fig3.png" alt="">
-                        <img src="/Resources/assets/images/Fig4.png" alt="">
+                    <img src="/Resources/assets/images/Fig1.png" class="figure-img img-fluid rounded" alt="...">
+                    
+                  </figure>
 
-                    </p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="container">
+                    <div class="row row-cols-2"> 
+                        <div class="col"> 
+                            <a href="temp.html">  <img src="/Resources/assets/images/Fig1.png" width="400" height="300"> </a> </div>
+                        <div class="col"> <a href="humidity.html"> </a> <img src="/Resources/assets/images/Fig2.png" width="400" height="300"> </div>
+                        <div class="col"> <a href="cloudiness.html"> </a> <img src="/Resources/assets/images/Fig3.png" width="400" height="300"> </div>
+                        <div class="col"> <a href="windspeed.html"> </a> <img src="/Resources/assets/images/Fig4.png" width="400" height="300"> </div>
+                    </div>
                 </div>
-            </div>    
+                
             </div>
         </div>
 
 
+    </div>
 
-    </body>
 
+
+    <!--end main page -->
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
-  

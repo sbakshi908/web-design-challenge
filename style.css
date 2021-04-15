@@ -16,9 +16,11 @@
 .paragraph{
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-small;
-    color: black;
+    font-size: small;
+    color: black
+    text-align: justify;
 }
 .imgsetting {
-    -ms-layout-grid: ;
+    float: left; 
+    margin: 5px;
 }
