@@ -6,21 +6,39 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
+    margin-top: 20px;
+    padding-left: 10px;
 }
 .subheader{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
     color: teal;
     font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+.comparison{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: medium;
+    padding-left: 20px;
 }
 .paragraph{
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: small;
-    color: black
-    text-align: justify;
+    color: black;
+    
+    
 }
-.imgsetting {
-    float: left; 
-    margin: 5px;
-}
+body { background-image: linear-gradient(color, color); }
+html {
+  height: 100%;
+  }
+  body {
+  background-image: linear-gradient(#FFFFFF, rgb(89, 155, 255));
+  }
